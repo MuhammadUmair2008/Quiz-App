@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/quiz.css">
+    <title>QUICK QUIZ</title>
+  </head>
+  <body>
+    <div class="main-div">
+        <div class="quiz-app">
+        <div class="start" id="start" style="display: block;">
+        
+        <h1 class="app">QUICK QUIZ</h1>
+        
+        </div>
+          <div class="quiz" id="quiz-secreen" style="display:none;">          
+            <div class="time-bar">
+            <div class="time-left" id="timeLeft">
+            
+            </div>
+          </div>
+          <div class="question-no">
+            <h3 class="q-text">Questions<span id="currentQuestion"> 1</span> / <span id="totalQuestions"> 10</span></h3>
+            <h3 id="dots">.............................................................</h3>
+       </div>
+          <div class="qus">
+            <h1 id="question">Who is the first child of the john doe?</h1>
+
+          </div>
+          <div class="choices">
+            <button class="btn" id="opt1">Mark Angel</button>
+            <button class="btn" id="opt2">Mark Angel</button>
+            <button class="btn" id="opt3">Mark Angel</button>
+            <button class="btn" id="opt4">Mark Angel</button>
+          </div>
+          <div class="next-btn">
+            <button id="next">Next</button>
+          </div>
+        </div>
+        <div class="result" id="resultSecreen" style="display: none;"><br><br><br>
+            <center><h1>YOUR SCORE</h1></center>
+           <br><br><br><br><br>
+        <h1 class="app"> Score : <span id="score">6</span></h1>
+        <br><br><br><br>
+        <center><input type="BUTTON" value="PLAY AGAIN" onclick="parent.location='../index.html'"></center>
+        
+
+
+        </div>
+        </div>
+    </div>
+    <script src="/quiz.js"></script>
+  </body>
+</htm>

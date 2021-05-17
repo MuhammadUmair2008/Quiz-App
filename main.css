@@ -1,0 +1,18 @@
+
+  body {
+       background: linear-gradient(90deg, rgba(151,157,177,1) 43%, rgba(255,255,255,1) 100%);
+      
+  }
+  input{
+    border: 4px white solid;
+    display: inline block;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+   
+}
+h1 {
+  font-family: 'Goblin One', cursive;
+}
